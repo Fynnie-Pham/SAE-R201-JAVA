@@ -1,8 +1,8 @@
-public class Nombre {
+public class Nombre extends Expression {
     private int valeurNombre;
-    public Nombre(int valeur)
+    public Nombre(int unevaleur)
     {
-        this.valeurNombre = valeur;
+        this.valeurNombre = unevaleur;
     }
 
     public int valeur()

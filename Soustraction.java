@@ -1,5 +1,5 @@
 public class Soustraction extends Operation {
-    public Soustraction(Nombre operande1, Nombre operande2)
+    public Soustraction(Expression operande1, Expression operande2)
     {
         super(operande1, operande2);
     }

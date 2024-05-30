@@ -1,8 +1,8 @@
-public abstract class Operation {
-    private Nombre operande1;
-    private Nombre operande2;
+public abstract class Operation extends Expression {
+    private Expression operande1;
+    private Expression operande2;
 
-    public Operation(Nombre operande1, Nombre operande2)
+    public Operation(Expression operande1, Expression operande2)
     {
         this.operande1 = operande1;
         this.operande2 = operande2;
@@ -10,11 +10,11 @@ public abstract class Operation {
 
     public abstract int valeur();
 
-    public Nombre getOperande1()
+    public Expression getOperande1()
     {
         return this.operande1;
     }
-    public Nombre getOperande2()
+    public Expression getOperande2()
     {
         return this.operande2;
     }

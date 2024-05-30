@@ -1,5 +1,5 @@
 public class Multiplication extends Operation {
-    public Multiplication(Nombre operande1, Nombre operande2)
+    public Multiplication(Expression operande1, Expression operande2)
     {
         super(operande1, operande2);
     }
