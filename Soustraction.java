@@ -4,7 +4,7 @@ public class Soustraction extends Operation {
         super(operande1, operande2);
     }
 
-    public int valeur()
+    public double valeur()
     {
         return getOperande1().valeur()-getOperande2().valeur();
     }

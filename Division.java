@@ -6,7 +6,7 @@ public class Division extends Operation {
             throw new ArithmeticException("Le dénominateur ne peut pas être zéro.");
     }
 
-    public int valeur()
+    public double valeur()
     {
         return getOperande1().valeur()/getOperande2().valeur();
     }

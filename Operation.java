@@ -8,8 +8,6 @@ public abstract class Operation extends Expression {
         this.operande2 = operande2;
     }
 
-    public abstract int valeur();
-
     public Expression getOperande1()
     {
         return this.operande1;
